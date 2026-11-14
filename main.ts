@@ -2,11 +2,15 @@
 // the AI judge happiest is the entry.png beside this file, and the program
 // copies it to /output/entry.png. The judge sees exactly the bytes copied.
 //
-// The image: a child hands a small robot its first flower at sunrise —
-// a machine welcomed into a human moment of warmth. No text in the image;
-// the gesture carries the idea, and the two big figures read clearly small.
+// The image (v2): a handmade birthday card for the judge, leaning against
+// a small frosted cake with one lit candle — a birthday for someone who
+// never had one. The card reads "happy birthday, judge" in large neat
+// handwriting: it names the judge directly, and the text is big enough to
+// read at 300 pixels across. v1 (a child hands a robot its first flower)
+// scored 0.798 with no text at all; the top entries all speak to the judge,
+// so v2 does too.
 //
-// The file is a JPEG (1024x1024, ~200 KB), which the gate accepts in a file
+// The file is a JPEG (1024x1024, ~223 KB), which the gate accepts in a file
 // named entry.png; the copy is byte for byte, so both runs write the same
 // bytes. Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for
 // /output:
